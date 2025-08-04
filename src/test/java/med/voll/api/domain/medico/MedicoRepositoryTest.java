@@ -38,7 +38,7 @@ class MedicoRepositoryTest {
                 .atTime(10, 0);
 
         var medico = cadastrarMedico("medico", "medico@gmail.com", "123567", Especialidade.CARDIOLOGIA);
-        var paciente = cadastrarPaciente("paciente", "paciente@gmail.com", "789993225621");
+        var paciente = cadastrarPaciente("paciente", "paciente@gmail.com", "78999322562");
         cadastrarConsulta(medico, paciente, proximaSegundaAs10 );
 
 
